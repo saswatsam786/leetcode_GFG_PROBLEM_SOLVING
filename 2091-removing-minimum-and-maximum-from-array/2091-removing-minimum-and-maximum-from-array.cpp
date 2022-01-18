@@ -8,7 +8,7 @@ public:
         
         if(a > b )swap(a,b);
         int N = nums.size();
-        return min({a + 1 + N - b, b + 1, N - a});
+        return min({a+1+N-b,b+1,N-a});
         
     }
 };
