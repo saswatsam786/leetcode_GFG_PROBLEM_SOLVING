@@ -22,9 +22,9 @@ public:
                 index = i;
             }
         }
-        if(!con){
+        
         swap(arr[gidx-1],arr[index]);
-        }
+        
         sort(arr.begin()+gidx,arr.end());
         
         return;
